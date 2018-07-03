@@ -10,7 +10,7 @@
   "keywords": [
     "angular",
     "input",
-    "masks"
+    "masks" 
   ],
   "dependencies": {
     "angular": "^1.3.16"
