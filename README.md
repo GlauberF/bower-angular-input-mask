@@ -1,7 +1,7 @@
 # bower-angular-input-mask
 
-How to use
-ui-number-mask
+**How to use**<br>
+**ui-number-mask**
 
 ```html
 <input type="text" name="field" ng-model="number" ui-number-mask>
@@ -26,7 +26,7 @@ Support to the min, max and ui-hide-group-sep attributes.
 ```
 
 Internationalized: Used the decimal separator and the thousands separator defined in the client browser configuration.
-ui-percentage-mask
+<br> **ui-percentage-mask**
 Example:
 ```html
 <input type="text" name="field" ng-model="percentage" ui-percentage-mask>
@@ -52,7 +52,7 @@ The $modelValue is the $viewValue / 100, so $viewValue - 100% = $modelValue - 1
 
 You can add ui-hide-space attribute to hide space between [NUMBER] and %
 
-ui-money-mask
+**ui-money-mask**
 Example:
 
 ```html
@@ -70,7 +70,7 @@ Internationalized: Used the currency symbol, decimal separator and thousands sep
 
 You can add ui-hide-space attribute to hide space between [Currency symbol] and [NUMBER]
 
-ui-br-phone-number
+**ui-br-phone-number**
 
 ```html
 <input type="text" name="field" ng-model="phoneNumber" ui-br-phone-number-mask>
@@ -91,7 +91,7 @@ Suports only country code phone number format: +12 (34) 5678-9012 || +12 (34) 56
 <input type="text" name="field" ng-model="phoneNumber" ui-br-phone-number-mask="countryCode">
 ```
 
-ui-us-phone-number
+**ui-us-phone-number**
 Example:
 ```html
   <input type="tel" name="field" ng-model="phoneNumber" ui-us-phone-number-mask>
@@ -99,30 +99,30 @@ Example:
 
 Outputs phone number in the following format: (123) 456-7890
 
-ui-br-cep-mask
+**ui-br-cep-mask**
 ```html
 <input type="text" name="field" ng-model="cep" ui-br-cep-mask>
 ```
 
-ui-br-cpf-mask
+**ui-br-cpf-mask**
 Example:
 ```html
 <input type="text" name="field" ng-model="initializedCpf" ui-br-cpf-mask>
 ```
 
-ui-br-cnpj-mask
+**ui-br-cnpj-mask**
 Example:
 ```html
 <input type="text" name="field" ng-model="initializedCnpj" ui-br-cnpj-mask>
 ```
 
-ui-br-cpfcnpj-mask
+**ui-br-cpfcnpj-mask**
 Example:
 ```html
 <input type="text" name="field" ng-model="initializedCpfCnpj1" ui-br-cpfcnpj-mask>
 ```
 
-ui-br-ie-mask
+**ui-br-ie-mask**
 ```html
 <select ng-init="ufs=['AC','AL','AM','TO']" ng-model="selectedUF" ng-options="uf for uf in ufs"></select>
 <input type="text" name="field19" ng-model="ieField" ui-br-ie-mask='selectedUF'>
@@ -132,7 +132,7 @@ Support masks for all the 27 brazillian states.
 
 Validations according to the Sintegra especification.
 
-ui-time-mask
+**ui-time-mask**
 -Example:
 
 ```html
@@ -144,7 +144,7 @@ Support to the short attributes.
 <input type="text" name="field" ng-model="initializeTime" ui-time-mask="short">
 ```
 
-ui-date-mask
+**ui-date-mask**
 -Example:
 
 ```html
@@ -163,7 +163,7 @@ Support to parse attribute. When the attribute is set to false, the inputed valu
 <input type="text" name="field" ng-model="birthDate" ui-date-mask parse="false">
 ```
 
-time-mask
+**time-mask**
 -Example:
 
 ```html
@@ -171,11 +171,11 @@ time-mask
 <input type="text" name="initializedShortTimeMask" ng-model="initializedShortTimeMask" ui-time-mask="short">
 ```
 
-Masks to be documentated (help wanted!)
-ui-nfe-access-key-mask
-ui-time-mask
-ui-date-mask
-ui-br-boleto-bancario-mask
-ui-br-car-plate-mask
-ui-scientific-notation-mask
-ui-fr-phone-number
+**Masks to be documentated (help wanted!)**
+* ui-nfe-access-key-mask
+* ui-time-mask
+* ui-date-mask
+* ui-br-boleto-bancario-mask
+* ui-br-car-plate-mask
+* ui-scientific-notation-mask
+* ui-fr-phone-number
