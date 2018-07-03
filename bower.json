@@ -1,10 +1,11 @@
 {
   "name": "bower-angular-input-mask",
+  "version": "2.0.0",
   "homepage": "https://github.com/GlauberF/bower-angular-input-mask",
   "authors": [
     "Glauber Funez <glauber_funez@hotmail.com>"
   ],
-  "description": "",
+  "description": "Personalized and localized input masks for AngularJS",
   "main": "angular-input-masks-standalone.min.js",
   "keywords": [
     "angular",
