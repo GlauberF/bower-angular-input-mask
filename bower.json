@@ -1,0 +1,25 @@
+{
+  "name": "bower-angular-input-mask",
+  "homepage": "https://github.com/GlauberF/bower-angular-input-mask",
+  "authors": [
+    "Glauber Funez <glauber_funez@hotmail.com>"
+  ],
+  "description": "",
+  "main": "angular-input-masks-standalone.min.js",
+  "keywords": [
+    "angular",
+    "input",
+    "masks"
+  ],
+  "dependencies": {
+    "angular": "^1.3.16"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
